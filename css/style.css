@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+*:focus{
+    outline: dotted #DE2E54 3px;
+    border-radius: 7px;
+    outline-offset: 4px;
+}
+.header {
+    padding: 24px 0;
+}
+.father-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+}
+.os-font{
+    font-family: 'Open Sans', sans-serif;
+}
+.ansormed-text{
+    color: #DE2E54;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.logo-link{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+.logo-link:active{
+    opacity: 60%;
+}
+.ul{
+    display: flex;
+}
+.items{
+    transition: color 0.5s ease;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 700;
+}
+.items:hover{
+    color: #DE2E54;
+}
+.items:active{
+    opacity: 60%;
+}
+.li{
+    list-style: none;
+    margin-right: 32px;
+}
+.blog-text{
+    margin-right: 0px;
+}
+.qy-button{
+    color: white;
+    width: 189px;
+    height: 47px;
+    background: #DE2E54;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+    transition: all 0.5s ease;
+}
+.bar-text{
+    font-size: 25px;
+}
+.bar-button{
+    margin-left: 10px;
+    padding:10px 15px;
+    border-radius: 8px;
+    background-color: #0EB4C1;
+    transition: all 0.5s ease;
+    border: 2px solid transparent;
+    display: none;
+}
+.bar-button:hover{
+    border: 2px solid #0EB4C1;
+    background-color: white;
+}
+.bar-button:active{
+    opacity: 60%;
+}
+.qy-button:hover{
+    border: #DE2E54 2px solid;
+    background-color: white;
+    color:#DE2E54;
+}
+.qy-button:active{
+    background-color: #DE2E54;
+    opacity: 60%;
+    color: white;
+}
+.hero-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.hero-section{
+    background-color: #0EB4C1;
+}
+.hero-box {
+    padding: 120px 0;
+    width: 100%;
+    max-width: 500px;
+}
+.first-section-p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 36px;
+}
+.doctor-img{
+    margin-top: auto;
+}
+.ssec-font{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+.center-section{
+    padding: 120px 0px;
+}
+.xizmatlar-text{
+    padding:0px 0px 56px 0px;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.center-section-container{
+    max-width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0 20px ;
+}
+.center-section-img{
+    width: 200px;
+    height: 200px;
+}
+.center-section-div{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.center-section-h3{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.center-section-p{
+    font-size: 16px;
+}
+.mbf-div{
+    margin-bottom: 60px;
+}
+.btn-div{
+    display: flex;
+    justify-content:center;
+}
+.last-section{
+    padding: 64px 0;
+    background-color:#0EB4C1;
+    align-items: center;
+}
+.last-section-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 4100px;
+}
+.qro-text{
+    color: white;
+    margin-bottom: 52px;
+    font-size: 36px;
+}
+.flink{
+    transition: all 0.4s ease;
+    letter-spacing: 2px;
+    font-size: 15px;
+    background-color: #0EB4C1;
+    color: white;
+    text-decoration: none;
+    border: white solid 2px;
+    border-radius: 8px;
+    padding: 10px 24px;
+    display: inline-block;
+}
+.flink:hover{
+    background-color: #DE2E54;
+    border: #DE2E54 solid 2px;
+}
+.flink:active{
+    opacity: 60%;
+}
+.tlink{
+    margin-left: 10px;
+}
+.footer{
+    background-color: #222222;
+    padding: 24px 0;
+}
+.items-two{
+    color: white;
+}
+.ansormed-text-two{
+    transition: color 0.4s ease;
+    color: white;
+}
+.ansormed-text-two:hover{
+    color: #DE2E54;
+}
+.last-section-father-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:1070px){
+    
+}
+@media only screen and (max-width:940px){
+    .qy-button{
+        color: white;
+        width: 150px;
+        height: 40px;
+        background: #DE2E54;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 700;
+        border: none;
+    }
+    .li{
+        margin-right: 10px;
+    }
+    .items{
+        letter-spacing: 0px;
+    }
+    .h2{
+        font-size: 22px;
+    }
+    .first-section-p{
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0px;
+    }
+    .doctor-img{
+        width: 400px;
+        height: 485px;
+    }
+}
+@media only screen and (max-width:810px){
+    .header{
+        padding: 20px 0px;
+    }
+    .items{
+        display: none;
+    }
+    .items-two{
+        display: block;
+    }
+    .bar-button{
+        display: block;
+        padding: 5px 15px;
+    }
+    .logo-img {
+        width: 45px;
+        height: 45px;
+    }
+    .ansormed-text {
+        font-size: 20px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .hero-box{
+        padding: 55px 0;
+    }
+    .first-section-p {
+        font-size: 10px;
+    }
+    .doctor-img {
+        width: 300px;
+        height:350px ;
+    }
+    .center-section {
+        padding: 80px 0;
+    }
+    .xizmatlar-text {
+        font-size: 33px;
+        padding: 0px 0px 50px;
+    }
+    .center-section-div {
+        margin: 0 0 50px;
+    }
+    .center-section-img {
+        width: 180px;
+        height: 180px;
+    }
+    .center-section-h3 {
+        font-size: 22px;
+        margin: 0 0 22px;
+    }
+    .center-section-p {
+        font-size: 12px;
+    }
+    .last-section {
+        padding: 35px 0;
+    }
+    .qro-text {
+        font-size: 33px;
+        margin: 0 0 30px;
+    }
+    .flink {
+        padding: 7px 20px;
+    }
+    .footer {
+        padding: 18px 0;
+    }
+}
